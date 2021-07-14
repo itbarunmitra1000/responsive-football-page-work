@@ -162,16 +162,12 @@ a{
    }
    .sponsor_container h1{
             text-align: center;
-            font-size: 40px;
+            font-size: 35px;
             font-weight: bold;
-            /* margin-bottom: 40px; */
+            margin-bottom: 40px;
+            color: #1C6EF2;
    }
-   .sponsor_container hr{
-       width: 350px;
-       margin-left:665px ;
-       margin-bottom: 40px;
-      
-   }
+  
     .sponsors{
         display: flex;
         justify-content: space-around;
