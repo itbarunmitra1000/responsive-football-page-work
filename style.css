@@ -1,6 +1,7 @@
 /* --------------------------- google fonts ------------------  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * { margin: 0;
      padding: 0 ;}
 
@@ -68,13 +69,14 @@ a{
     font-size: 64px;
     font-weight: bold;
     color: white;
+    margin-bottom: 18px;
 }
 .watch_icon_size {
     margin-left: 8px;
 }
 .banner_part img{
-    width: 556.01px;
-    height: 438px;
+    max-width: 556.01px;
+    min-height: 438px;
 }
 
 /*---------------------- End header  banner style    ----------------------- */
@@ -85,7 +87,7 @@ a{
    
  }
  .footballers{
-      width: 1050px;
+      max-width: 1050px;
       display: grid;
       grid-template-columns: repeat(3,1fr);
       grid-gap: 27px;
@@ -94,15 +96,15 @@ a{
  }
 .footballer{
     
-    width: 300px;
+    max-width: 300px;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 2px 2px 20px #c4c3c3;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
 }
  .footballer img{
-    width: 300px;
-    height: 256px;
+    max-width: 300px;
+    min-height: 256px;
     
  }
  .footballer h1{
