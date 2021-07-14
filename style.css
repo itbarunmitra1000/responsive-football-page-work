@@ -64,10 +64,10 @@ a{
 }
 .banner_text{
     margin-right: 90px;
-    max-width: 500px;
+    max-width: 460px;
 }
 .banner_text h1{
-    font-size: 64px;
+    font-size: 54px;
     font-weight: bold;
     color: white;
     margin-bottom: 18px;
@@ -154,3 +154,36 @@ a{
  }
 
   /* ---------------------------------- End  highlight style -----------------------------------------  */
+
+  /*------------------------------------------- start footer section style---------------------------  */
+
+  footer{
+      width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 158px;
+
+  }
+  footer img{
+    max-width: 483.87px;
+    max-height: 110px;
+    margin-bottom: 20px;
+  }
+.social_icon{
+    font-size: 17px;
+    background-color: #E7E7E8;
+    padding: 8px;
+    margin-right:  14px;
+    border-radius: 50%;
+    color: #969BAB;
+    margin-bottom: 20px;
+
+}
+footer p{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 63px;
+}
+  /*------------------------------------------- End footer section style---------------------------  */
