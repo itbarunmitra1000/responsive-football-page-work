@@ -155,6 +155,49 @@ a{
 
   /* ---------------------------------- End  highlight style -----------------------------------------  */
 
+    /*------------------------------------------- start sponsors section style---------------------------  */
+   .sponsor_container{
+    margin-top: 158px;
+
+   }
+   .sponsor_container h1{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            /* margin-bottom: 40px; */
+   }
+   .sponsor_container hr{
+       width: 350px;
+       margin-left:665px ;
+       margin-bottom: 40px;
+      
+   }
+    .sponsors{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+   
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsor img{
+        width: 120px;
+        height: 100px;
+    }
+    .sponsor a{
+        color: #76766F;
+        margin-top: 30px;
+        
+    }
+    .sponsor a:hover{
+        text-decoration: underline;
+    }
+
+
+      /*------------------------------------------- End sponsors section style---------------------------  */
+
   /*------------------------------------------- start footer section style---------------------------  */
 
   footer{
