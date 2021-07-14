@@ -44,7 +44,7 @@ a{
      border-radius: 5px;
 }
 .btn:hover{
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: #009FB6;
 }
 
 .login_icon_size{
@@ -59,11 +59,12 @@ a{
 .banner_part{
     display: flex;
     justify-content: space-around;
-    margin: 49px 123px 75px 132px ;
+    align-items: center;
+    margin: 49px 123px 75px 156px ;
 }
 .banner_text{
     margin-right: 90px;
-   
+    max-width: 485px;
 }
 .banner_text h1{
     font-size: 64px;
@@ -115,5 +116,41 @@ a{
  }
  .footballer p{
    font-size: 14px;
+   line-height: 28px;
    
  }
+
+ /* ---------------------------------------End player details section style --------------------------------  */
+
+ /* ----------------------------------start highlight style -----------------------------------------  */
+
+ .highlight{
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+     max-width: 1050px;
+     margin-top: 165px;
+     
+     
+ }
+ .highlight_text{
+    max-width: 469px;
+    margin-right: 76px;
+ }
+
+ .highlight_text h1{
+     
+     font-size: 48px;
+     font-weight: bold;
+ }
+ .highlight_text p{
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 24px;
+ }
+ .highlight img{
+    max-width: 567px;
+    max-height: 427px;
+ }
+
+  /* ---------------------------------- End  highlight style -----------------------------------------  */
