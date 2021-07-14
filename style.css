@@ -162,10 +162,11 @@ a{
    }
    .sponsor_container h1{
             text-align: center;
-            font-size: 35px;
+            font-size: 30px;
             font-weight: bold;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             color: #1C6EF2;
+            letter-spacing: 8px;
    }
   
     .sponsors{
