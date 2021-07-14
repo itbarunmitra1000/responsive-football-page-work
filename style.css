@@ -293,7 +293,6 @@ footer p{
     }
    .banner_part{
        display: block;
-       
        margin: 0 16px;
    }
    .banner_text {
@@ -303,7 +302,7 @@ footer p{
        font-size: 36px;
    }
    .banner_part img{
-        width: 100%;
+        width: 329px;
         max-height: 259.17px;
         margin: 50px 16px 0 16px;
    }
@@ -400,7 +399,7 @@ footer p{
 
      /* ------------------------  -----------  start  footer resposive ---------------------------- */
      footer{
-         margin-top: 30px;
+         margin-top: 43px;
      }
      footer img{
         max-width: 160;
@@ -416,23 +415,37 @@ footer p{
      }
     
             
-    /* ------------------------  -----------  End  footer resposive ---------------------------- */
+    /* ------------------------  -----------  End  footer responsive ---------------------------- */
    }
+/* ---------------------------For Mini Mobiles responsive --------------------------------------- */
 
-     /* ---------------------------For Mini Mobiles responsive --------------------------------------- */
 
+    @media only screen and (max-width: 480px){
+     .sponsors{
+        grid-gap: 20px 20px;
+      }
 
-     @media only screen and (max-width: 480px){
-        .sponsors{
-            grid-gap: 20px 20px;
-        }
-    
-        .subscribe_form h3{
-            margin-left: 10px;
-        }
-        form{
-            margin-right: 10px;
-        }
+    .subscribe_form h3{
+        margin-left: 10px;
      }
+     form{
+         margin-right: 10px;
+        }
+    }
 
-     /* --------------------------- End Mini Mobiles responsive --------------------------------------- */
+ /* --------------------------- End Mini Mobiles responsive --------------------------------------- */
+
+  
+      /* ---------------------------For too Mini Mobiles responsive --------------------------------------- */
+
+      @media only screen and (max-width: 414px){
+        .banner_part img{
+            width: 260px;
+            height: 230px;
+       }
+        .highlight img{
+            width:300px;  
+        }
+
+     }
+      /* --------------------------- End too Mini Mobiles responsive --------------------------------------- */
