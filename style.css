@@ -423,7 +423,10 @@ footer p{
 
 
      @media only screen and (max-width: 480px){
-
+        .sponsors{
+            grid-gap: 20px 20px;
+        }
+    
         .subscribe_form h3{
             margin-left: 10px;
         }
