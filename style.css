@@ -22,8 +22,13 @@ a{
 .header_banner{
     background-color: #2D25A0;
     width: 100%;
-    overflow: auto; 
-    
+    overflow: auto;   
+    transition: background-color 1.5s linear 0.3s  ;
+
+}
+.header_banner:hover{
+    background-color: #071931;
+
 }
 .navbar{
     display: flex;
