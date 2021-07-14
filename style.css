@@ -83,7 +83,7 @@ a{
 .banner_part img{
     max-width: 556.01px;
     min-height: 438px;
-    transition: transform 1s linear 0.5s;
+    transition: transform 1.5s linear 0.5s;
 }
 .header_banner:hover .banner_part img{
     transform: scale(1.1);
@@ -282,7 +282,7 @@ footer p{
 
 
    /*-------------------------------------------- start media query for responsive ---------------------------------- */
-
+  
    /* ---------------------------For Mobiles responsive --------------------------------------- */
 
 
