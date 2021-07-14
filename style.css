@@ -195,15 +195,57 @@ a{
 
       /*------------------------------------------- End sponsors section style---------------------------  */
 
+
+      /*-------------------------------------------------- start subscribe form style ----------------------- */
+
+    .subscribe_form{
+        height: 250px;
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .subscribe_form h3{
+        font-size: 30px;
+        font-weight: 400px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #10437A;
+    }
+    .subscribe{
+        font-size: 16px;
+        padding: 15px 15px;
+        margin-right: 20px;
+        border: none;
+       
+        
+    }
+
+    .subscribe_btn{
+        font-size: 16px;
+        padding: 15px 15px;
+        color: black;
+    }
+    .subscribe_btn:hover{
+        color: white;
+        background-color: #0032A0;
+    }
+
+
+
+      /*-------------------------------------------------- End subscribe form style ----------------------- */
+
+
   /*------------------------------------------- start footer section style---------------------------  */
 
-  footer{
+footer{
       width: 100%;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     margin-top: 158px;
+     margin-top: 100px;
 
   }
   footer img{
